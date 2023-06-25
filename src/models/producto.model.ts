@@ -1,8 +1,8 @@
 import { Column, CreateDateColumn, DeleteDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn, OneToMany } from "typeorm";
 import { CustomerEntity } from "./customer.model";
 //Jimmy Lorente - Israel Miño
-//una pelicula puede ser vista por muchos clientes 
-// pero los clientes solo puede ver una pelicula a la vez
+//un cliente puede tener varios productos de por muchos clientes 
+// pero un producto solo puede ser de un cliente a la vez
 @Entity('movies', { schema: 'views' })
 export class MovieEntity {
     @PrimaryGeneratedColumn('uuid')
