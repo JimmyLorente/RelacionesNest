@@ -1,6 +1,6 @@
 import { Column, CreateDateColumn, DeleteDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn, ManyToOne } from "typeorm";
 import { MovieEntity } from "./movie.model";
-//Angeles Quinatoa-Johan Garcia
+//Jimmy Lorente- Israel Miño
 //una pelicula puede ser vista por muchos clientes 
 // pero los clientes solo puede ver una pelicula a la vez
 @Entity('customers', { schema: 'views' })
